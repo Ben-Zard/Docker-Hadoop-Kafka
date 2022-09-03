@@ -1,0 +1,4 @@
+docker-compose -f docker-compose-expose.yml up
+pip install kafka-python
+python producer.py
+python consumer.py
